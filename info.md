@@ -1,6 +1,6 @@
 ---
 title: "Info"
-author: "Sebastián Fuenzalida"
+author: "Sebastian Fuenzalida"
 date: "27 de septiembre de 2015"
 output: ioslides_presentation
 runtime: shiny
@@ -20,4 +20,8 @@ You can select the States you want to include in the graphics in the Left side P
       * States by region (NorthEast, SouthEast, NorthCentral...)  
       * All states separate  
 
-You can check the source code in the gitHub repository [HERE](https://github.com/sfuenza/Developing-Data-Product---Project).
+You can check the source code in the gitHub repository [HERE](https://github.com/sfuenza/Developing-Data-Product---Project)
+
+IF you want to know better how to use the application you can see the Slidify Presentation [HERE](http://rpubs.com/sfuenza/Developing_Data_Products_Slidify)
+
+Enjoy!

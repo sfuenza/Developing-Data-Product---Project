@@ -4,20 +4,24 @@ plot_graphic_map <- function(data, map_of_states, fill, title,min_col="yellow", 
       
       if(sum(is.na(data$Murder))==49)
       {
+            
             p <- ggplot(data, aes(map_id = State))
             p <- p + geom_map(map = map_of_states, colour='gray')
             p <- p + expand_limits(x = map_of_states$long, y = map_of_states$lat)
             p <- p + coord_map() + theme_bw()
             p + labs(x = "Long", y = "Lat", title = title)
+            
       }
       else
       {
+            
             p <- ggplot(data, aes(map_id = State))
             p <- p + geom_map(aes_string(fill = fill), map = map_of_states, colour='gray')
             p <- p + expand_limits(x = map_of_states$long, y = map_of_states$lat)
             p <- p + coord_map() + theme_bw()
             p <- p + labs(x = "Longitude", y = "Latitude", title = title)
             p + scale_fill_gradient(low = min_col, high = max_col, na.value = "black")
+            
       }
       
 }

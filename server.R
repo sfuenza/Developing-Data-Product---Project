@@ -133,14 +133,16 @@ shinyServer(function(input, output,session) {
       output$statesGraphic <- renderPlot({
             title=paste("N° of arrests for",reac_values$fill,"per 100.000 residents in 1973 by States")
             
-            print(plot_graphic_map(
+            
+            p<-plot_graphic_map(
                   data=arrests.select(),
                   map_of_states=map_of_states,
                   fill=reac_values$fill,
                   title=title
                   
+            
             )
-            )
+            print(p)
             
       })
       #Map Graphic for urban population
