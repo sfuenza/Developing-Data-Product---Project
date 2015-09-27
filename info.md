@@ -22,6 +22,6 @@ You can select the States you want to include in the graphics in the Left side P
 
 You can check the source code in the gitHub repository [HERE](https://github.com/sfuenza/Developing-Data-Product---Project)
 
-IF you want to know better how to use the application you can see the Slidify Presentation [HERE](http://rpubs.com/sfuenza/Developing_Data_Products_Slidify)
+IF you want to know better how to use the application you can see the Slidify Presentation [HERE](http://sfuenza.github.io/slidify_coursera)
 
 Enjoy!
